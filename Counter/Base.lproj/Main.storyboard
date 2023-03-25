@@ -19,7 +19,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYG-a8-5uO">
                                 <rect key="frame" x="65" y="139" width="263" height="276"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -29,7 +29,7 @@
                                 <color key="backgroundColor" red="0.94228037590000002" green="0.1843994923" blue="0.19703084030000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="title"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2jL-GD-GGq"/>
                                 </connections>

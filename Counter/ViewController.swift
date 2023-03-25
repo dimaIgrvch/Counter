@@ -16,16 +16,16 @@ class ViewController: UIViewController {
     
     @IBAction func tapButton(_ sender: Any) {
         countLabel += 1
-        textLAbel.text = "\(countLabel)"
+        textLAbel.text = " Значение счётчика: \(countLabel)"
+        
+        let tapButton = UIButton()
+        tapButton.setTitle("Значение счётчика", for: .normal)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         textLAbel.text = "0"
-        
-        
-        
         
     }
 
