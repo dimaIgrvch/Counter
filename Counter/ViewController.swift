@@ -9,22 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var countLabel = 0
+    var count = 0
     
     @IBOutlet weak var textLAbel: UILabel!
     
     
     @IBAction func tapButton(_ sender: Any) {
-        countLabel += 1
-        textLAbel.text = " Значение счётчика: \(countLabel)"
+        count += 1
+        textLAbel.text = " Значение счётчика: \(count)"
         
-        let tapButton = UIButton()
-        tapButton.setTitle("Значение счётчика", for: .normal)
+        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
         textLAbel.text = "0"
         
     }

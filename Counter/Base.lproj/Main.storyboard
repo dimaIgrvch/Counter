@@ -29,7 +29,16 @@
                                 <color key="backgroundColor" red="0.94228037590000002" green="0.1843994923" blue="0.19703084030000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="BUTTON">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="toolTip"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2jL-GD-GGq"/>
                                 </connections>
